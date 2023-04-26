@@ -1,0 +1,129 @@
+/* Estilos base */
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: #cccccc;
+    background-image: url("fondo.jpg");
+  }
+  
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para el header */
+  .header {
+    text-align: center;
+    background-color: #161616;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Estilos para el formulario */
+  .form-box {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(26, 25, 25, 0.2);
+    background-color: white;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .form-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .form-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .form-box textarea,
+  .form-box input {
+    border-radius: 5px;
+    border: 1px solid rgba(7, 7, 7, 0.2);
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .form-box textarea {
+    height: 150px;
+  }
+  
+  .form-box .btn {
+    border: 0;
+    color: rgb(252, 249, 249);
+    font-weight: bold;
+    background-color: rgb(161, 12, 12);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-box .btn:hover {
+    background-color: rgb(98, 185, 236);
+  }
+  
+  /* Estilos para el mensaje encriptado */
+  .msg {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(26, 25, 25, 0.2);
+    background-color: white;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .msg h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .msg input[type="text"] {
+    border-radius: 5px;
+    border: 1px solid rgba(7, 7, 7, 0.2);
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    max-width: 500px;
+  }
+  
+  .msg .btn {
+    border: 0;
+    color: rgb(252, 249, 249);
+    font-weight: bold;
+    background-color: rgb(2, 135, 252);
+    box-shadow: inset;
+  }
